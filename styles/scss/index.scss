@@ -1,0 +1,85 @@
+@import "main.scss";
+
+.header{
+    margin-top: 160px;
+
+    &__title{
+        font-size: $fz-128;
+        letter-spacing: 15px;
+    }
+
+    img{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .text-right{
+        text-align: right;
+    }
+}
+
+
+.aboutMe{
+    background-color: $lightGray;
+    margin-bottom: 80px;
+
+    &__text{
+        width: 636px;
+        padding: 48px 0px;
+        margin-left: auto;
+        font-size: $fz-32;
+    }
+}
+
+.info{
+    width: 636px;
+    margin-bottom: 160px;
+
+    &__title{
+        margin-bottom: 16px;
+        font-size: $fz-40;
+        color: $red;
+        border-bottom: 3px solid $red;
+    }
+
+    ul{
+        margin-bottom: 40px;
+
+        li{
+            margin-bottom: 8px;
+            font-size: $fz-24;
+
+            a{
+                text-decoration: none;
+                color: black;
+            }
+
+            & > .info--date{
+                font-size: $fz-20;
+                color: $gray;
+            }
+        }
+        
+        li:last-child{
+            margin-bottom: 0;
+        }
+    }
+}
+
+footer{
+    background-color: $black;
+
+    .footer__icon{
+        display: flex;
+        justify-content: center;
+        padding: 64px 0px;
+
+        li{
+            margin-right: 40px;
+
+            &:last-child{
+                margin-right: 0px;
+            }
+        }
+    }
+}

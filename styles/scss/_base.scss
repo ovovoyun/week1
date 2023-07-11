@@ -1,0 +1,18 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Castoro';
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.container{
+    max-width: $containerMaxWidth;
+    margin: 0 auto;
+}

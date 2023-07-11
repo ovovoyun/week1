@@ -1,0 +1,143 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Castoro&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Castoro";
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-top: 160px;
+}
+.header__title {
+  font-size: 128px;
+  letter-spacing: 15px;
+}
+.header img {
+  display: block;
+  margin: 0 auto;
+}
+.header .text-right {
+  text-align: right;
+}
+
+.aboutMe {
+  background-color: #EFEFEF;
+  margin-bottom: 80px;
+}
+.aboutMe__text {
+  width: 636px;
+  padding: 48px 0px;
+  margin-left: auto;
+  font-size: 32px;
+}
+
+.info {
+  width: 636px;
+  margin-bottom: 160px;
+}
+.info__title {
+  margin-bottom: 16px;
+  font-size: 40px;
+  color: #AE0000;
+  border-bottom: 3px solid #AE0000;
+}
+.info ul {
+  margin-bottom: 40px;
+}
+.info ul li {
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+.info ul li a {
+  text-decoration: none;
+  color: black;
+}
+.info ul li > .info--date {
+  font-size: 20px;
+  color: #949494;
+}
+.info ul li:last-child {
+  margin-bottom: 0;
+}
+
+footer {
+  background-color: #000;
+}
+footer .footer__icon {
+  display: flex;
+  justify-content: center;
+  padding: 64px 0px;
+}
+footer .footer__icon li {
+  margin-right: 40px;
+}
+footer .footer__icon li:last-child {
+  margin-right: 0px;
+}/*# sourceMappingURL=index.css.map */
