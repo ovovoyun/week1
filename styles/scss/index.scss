@@ -1,16 +1,13 @@
 @import "main.scss";
 
-.header{
-    margin-top: 160px;
-
-    &__title{
+header{
+    .header__title{
         font-size: $fz-128;
-        letter-spacing: 15px;
+        letter-spacing: 0.12em;
     }
 
     img{
         display: block;
-        margin: 0 auto;
     }
 
     .text-right{
@@ -21,12 +18,10 @@
 
 .aboutMe{
     background-color: $lightGray;
-    margin-bottom: 80px;
 
     &__text{
         width: 636px;
         padding: 48px 0px;
-        margin-left: auto;
         font-size: $fz-32;
     }
 }
@@ -36,45 +31,42 @@
     margin-bottom: 160px;
 
     &__title{
-        margin-bottom: 16px;
         font-size: $fz-40;
         color: $red;
         border-bottom: 3px solid $red;
     }
 
-    ul{
-        margin-bottom: 40px;
 
-        li{
-            margin-bottom: 8px;
-            font-size: $fz-24;
+    li{
+        margin-bottom: 8px;
+        font-size: $fz-24;
 
-            a{
-                text-decoration: none;
-                color: black;
-            }
-
-            & > .info--date{
-                font-size: $fz-20;
-                color: $gray;
-            }
+        a{
+            text-decoration: none;
+            color: black;
         }
-        
-        li:last-child{
-            margin-bottom: 0;
+
+        & > .info--date{
+            font-size: $fz-20;
+            color: $gray;
         }
     }
+    
+    li:last-child{
+        margin-bottom: 0;
+    }
+    
 }
 
 footer{
     background-color: $black;
+    text-align: center;
 
     .footer__icon{
-        display: flex;
-        justify-content: center;
         padding: 64px 0px;
 
         li{
+            display: inline-block;
             margin-right: 40px;
 
             &:last-child{
