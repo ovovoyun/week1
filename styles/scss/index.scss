@@ -36,9 +36,8 @@ header{
         border-bottom: 3px solid $red;
     }
 
-
     li{
-        margin-bottom: 8px;
+        margin-bottom: 16px;
         font-size: $fz-24;
 
         a{
@@ -46,7 +45,8 @@ header{
             color: black;
         }
 
-        & > .info--date{
+        & > .info--year{
+            font-style: italic;
             font-size: $fz-20;
             color: $gray;
         }
@@ -54,6 +54,19 @@ header{
     
     li:last-child{
         margin-bottom: 0;
+    }
+
+    
+    &__vito{
+        li{
+            margin-bottom: 8px;
+        }
+    }
+
+    &__awards{
+        li{
+            margin-bottom: 12px;
+        }
     }
     
 }

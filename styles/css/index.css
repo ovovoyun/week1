@@ -133,19 +133,26 @@ header .text-right {
   border-bottom: 3px solid #AE0000;
 }
 .info li {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
   font-size: 24px;
 }
 .info li a {
   text-decoration: none;
   color: black;
 }
-.info li > .info--date {
+.info li > .info--year {
+  font-style: italic;
   font-size: 20px;
   color: #949494;
 }
 .info li:last-child {
   margin-bottom: 0;
+}
+.info__vito li {
+  margin-bottom: 8px;
+}
+.info__awards li {
+  margin-bottom: 12px;
 }
 
 footer {
